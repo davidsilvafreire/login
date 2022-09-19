@@ -1,2 +1,51 @@
 @charset "UTF-8";
 
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+ body
+{
+    background-image: url(../imagens/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+main
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#login
+{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
+}
+#imagem
+{
+    display: block;
+    background: blue url(../imagens/image-borrada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+#formulario
+{
+    display: block;
+    padding: 10px;
+}
